@@ -1,0 +1,26 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Time array
+t = np.linspace(0, 1, 2000)
+
+# Frequency increases over time (chirp)
+f0 = 5      # initial frequency
+f1 = 50     # final frequency
+frequency = f0 + (f1 - f0) * t
+
+# Amplitude increases over time
+amplitude = t**2
+
+# Wave signal
+signal = amplitude * np.sin(2 * np.pi * frequency * t)
+
+# Plot
+plt.figure()
+plt.plot(t, signal)
+plt.title("Gravitational Wave Chirp Simulation")
+plt.xlabel("Time")
+plt.ylabel("Strain (arbitrary units)")
+plt.grid()
+
+plt.show() 
