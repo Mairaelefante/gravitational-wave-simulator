@@ -1,3 +1,11 @@
+![Gravitational Wave Simulator](cover.svg)
+
+> **Signal modeling · Scientific computation**
+
+**Area:** Gravitational-wave physics · [Browse project files](./)
+
+---
+
 # Gravitational Wave Simulator
 
 A Python project to simulate a simplified gravitational wave signal produced by merging compact objects such as black holes.
