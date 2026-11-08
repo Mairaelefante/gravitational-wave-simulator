@@ -32,10 +32,14 @@ As two massive bodies orbit each other:
 
 This produces the characteristic "chirp" signal.
 
+## Project note
+
+The current repository filenames include a space before the extensions (for example, `gw_simulator. py`). The links below use those exact names. Rename them consistently before using conventional `python3 gw_simulator.py` commands.
+
 ## Files
 
-- `gw_simulator.py` → waveform simulation
-- `notes.md` → theoretical background
+- [`gw_simulator. py`](gw_simulator.%20py) → waveform simulation
+- [`notes. md`](notes.%20md) → theoretical background
 
 ## Why this project
 
